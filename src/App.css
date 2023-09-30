@@ -1,0 +1,43 @@
+#root {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-container{
+  padding: 0.5rem;
+}
+
+.img-card{
+  max-width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.card-text{
+  height: 13rem;
+}
+
+.span-container{
+  position: bottom;
+  position: relative;
+  height: 2rem;
+  /* padding-top: 3rem; */
+}
+
+span{
+  position: bottom;
+  bottom: 0;
+  left: 0;
+}
+
+footer{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
